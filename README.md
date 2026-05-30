@@ -4,7 +4,22 @@
 >
 > A **Liberty Lens Studios** production.
 
-The Nickname Project is a polished, native iOS app (SwiftUI) that takes a portrait, analyzes it **entirely on-device** using Apple's Vision framework, and generates a playful, Trump-style signature nickname along with a confidence score and a six-trait personality breakdown.
+The Nickname Project is a polished app that takes a portrait, analyzes it **on-device / in-browser**, and generates a playful, Trump-style signature nickname along with a confidence score and a six-trait personality breakdown.
+
+It ships in two flavors:
+
+| Flavor | Path | Stack | Best for |
+| --- | --- | --- | --- |
+| 📱 **Native iOS app** | [`/` (this folder)](Trumpiss.xcodeproj) | SwiftUI + Vision | Running on a real iPhone via Xcode |
+| 🌐 **Web app** | [`/web`](web/) | Node + Express + vanilla JS | Deploying a shareable link (e.g. Railway) — **no Mac required** |
+
+> **Just want a link you can open on any phone?** Use the web app in [`/web`](web/) — it has its own README with one-click Railway deploy steps.
+
+---
+
+## 📱 iOS app
+
+A native SwiftUI app that takes a portrait, analyzes it **entirely on-device** using Apple's Vision framework, and generates the nickname + breakdown.
 
 ---
 

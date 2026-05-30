@@ -1,0 +1,17 @@
+{
+  "name": "nickname-project-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Nickname Project — AI portrait nickname web app (Liberty Lens Studios).",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
